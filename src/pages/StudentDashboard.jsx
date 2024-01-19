@@ -15,16 +15,16 @@ function StudentDashboard() {
 
         </aside>
         {/* main dashboard */}
-        <main className='flex-auto bg-gradient-to-tl from-slate-500 to-slate-700 px-10 pt-5'>
+        <main className='flex-auto bg-gradient-to-tl from-slate-500 to-slate-700 px-10 pt-5 flex flex-col gap-5'>
             <p className='text-3xl'>Welcome to your Student Dashboard</p>
             {/* courses enrolled in */}
-            <section>
+            <section className='flex-auto flex justify-evenly gap-5 flex-wrap'>
                 {/* ongoing courses */}
                 <div className="">
                     <p>Ongoing Courses</p>
                 </div>
                 {/* completed courses */}
-                
+
             </section>
         </main>
     </div>
